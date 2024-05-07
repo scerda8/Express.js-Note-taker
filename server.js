@@ -1,14 +1,22 @@
 //Dependencies
-const express = require('express');
-const json = require('./db/db.json');
-
+const express= require ('express');
+const fs=require('fs');
+const indexRoute =require('./Routes/index');
+const notesRoute=require('./Routes/notes');
 //Set up server
-const PORT = 3001;
 const app = express();
 
+const PORT = 3001;
+
 //middleware
+app.use(express.urlencoded({ extended: true}));
 
+app.use(express.json());
 
+app.use(express.static('Public'));
+
+app.use('/', indexRoute);
+app.use('/api', notesRoute);
 
 
 
