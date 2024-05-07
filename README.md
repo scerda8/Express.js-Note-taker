@@ -1,5 +1,29 @@
 Title: Express.js-Note-taker
 
+Description: to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+
+
+
+
+Table of Contents:
+
+Title
+
+Description
+
+User Story
+
+Acceptance Criteria
+
+Deployment
+
+Link to github repo
+
+
+
+
+
+
 
 
 
