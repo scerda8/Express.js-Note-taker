@@ -72,5 +72,9 @@ WHEN I click on the "New Note" button in the navigation at the top of the page
 
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 
+![image](https://github.com/scerda8/Express.js-Note-taker/assets/159675591/481b6931-c154-4f07-9005-407bd3e0fc40)
+![image](https://github.com/scerda8/Express.js-Note-taker/assets/159675591/ff60ea48-b2ca-4629-b7d4-3bc8a0cd8686)
+
+
 Deployment:https://express-js-note-taker-h8xk.onrender.com
 Github repo:https://github.com/scerda8/Express.js-Note-taker
